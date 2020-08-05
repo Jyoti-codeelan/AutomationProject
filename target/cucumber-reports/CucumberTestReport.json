@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Log in with valid username and password",
+        "description": "",
+        "id": "log-in-feature;log-in-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23635884290,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open URL",
+            "match": {
+              "location": "LoginStepDef.i_open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5653693353,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password",
+            "match": {
+              "location": "LoginStepDef.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46662,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user on homepage",
+            "match": {
+              "location": "LoginStepDef.user_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log In feature",
+    "description": "",
+    "id": "log-in-feature",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  }
+]
