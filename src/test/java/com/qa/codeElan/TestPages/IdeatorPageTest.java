@@ -40,7 +40,7 @@ public class IdeatorPageTest extends BaseTest{
 	
 	}
 	
-	@JiraPolicy(logTicketReady=true)
+	@JiraPolicy(logTicketReady=false)
 	@Test(priority=1,enabled=true)
 	@Description("Add a Quick idea on Ideator Page")
 	
@@ -51,7 +51,7 @@ public class IdeatorPageTest extends BaseTest{
 	
 	}
 
-	@JiraPolicy(logTicketReady=true)
+	@JiraPolicy(logTicketReady=false)
 	@Test(priority=3,enabled=true)
 	@Description("Convert quick idea into Main idea on Ideator Page")
 	@Severity(SeverityLevel.CRITICAL)

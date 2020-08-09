@@ -31,7 +31,7 @@ public class Level1PageTest extends BaseTest{
 	
 	}
 	
-	@JiraPolicy(logTicketReady=true)
+	@JiraPolicy(logTicketReady=false)
 	@Test(priority=2)
 	@Description("Approve quick idea on level1 page-----postive test case")
 	@Severity(SeverityLevel.CRITICAL)

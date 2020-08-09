@@ -30,7 +30,7 @@ public static Logger log = Logger.getLogger(Level4PageTest.class.getName());
 	
 	}
 	
-	@JiraPolicy(logTicketReady=true)
+	@JiraPolicy(logTicketReady=false)
 	@Test(priority=7,enabled=true)
 	@Description("Approve quick idea on Level4  page-----postive test case")
 	@Severity(SeverityLevel.CRITICAL)
