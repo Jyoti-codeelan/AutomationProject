@@ -8,6 +8,8 @@ import com.qa.codeElan.Base.BasePage;
 import com.qa.codeElan.Utils.ElementUtils;
 import com.qa.codeElan.pojo.Credentials;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends BasePage{
 
 	public static Logger log= Logger.getLogger(LoginPage.class.getName());
@@ -29,7 +31,7 @@ public class LoginPage extends BasePage{
 	}
 	
 	
-	
+	@Step("Login with username: {0} and password: {1}")
 	public  HomePage getLogin(Credentials credentials) {
 
 		log.info("Enter Credentials..........");

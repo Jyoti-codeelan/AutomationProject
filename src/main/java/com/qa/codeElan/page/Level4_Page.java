@@ -26,12 +26,12 @@ public class Level4_Page extends BasePage{
 	elementUtils = new ElementUtils(this.driver);
 	}
 
-	@Step("Level4 Page Approve")
+	@Step("Approve on Level4 Page........")
 	public void getIdeaApproveOnLevel4Page(){
-		elementUtils.doMoveToElement(profileIcon);
-		elementUtils.getMoveElement(approvalsDrop);
-		elementUtils.doClick(approve);
-		elementUtils.doClick(okBtm);
+	elementUtils.doMoveToElement(profileIcon);
+	elementUtils.getMoveElement(approvalsDrop);
+	elementUtils.doClick(approve);
+	elementUtils.doClick(okBtm);
 		
 		}
 	

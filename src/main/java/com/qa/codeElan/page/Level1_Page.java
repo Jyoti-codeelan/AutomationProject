@@ -60,13 +60,13 @@ public class Level1_Page extends BasePage{
 		}
 		
 	
-		@Step("Approve in Level1 Page")
+	@Step("Approve in Level1 Page")
 	public HomePage getApproveIdeaOnLevel1Page(){
-		getSelectOnIdeaFromList();
-		elementUtils.doClick(approveIdeaDetailing);
-		elementUtils.doClick(okBtm);
+	getSelectOnIdeaFromList();
+	elementUtils.doClick(approveIdeaDetailing);
+	elementUtils.doClick(okBtm);
 		
-		return new HomePage(driver);
+	return new HomePage(driver);
 	}
 	
 	

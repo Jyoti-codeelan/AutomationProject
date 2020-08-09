@@ -67,7 +67,7 @@ public class ElementUtils extends BasePage{
 	 */
 	
 	public void waitForElementPresent(By locator){
-	WebDriverWait wait=new WebDriverWait(driver,80);
+	WebDriverWait wait=new WebDriverWait(driver,60);
 		try {
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		}
@@ -133,13 +133,13 @@ public class ElementUtils extends BasePage{
 	 */
 	
 	public void waitForElementClickable(By locator) {
-		wait = new WebDriverWait(driver,120);
+		wait = new WebDriverWait(driver,70);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
 	
 	
 	public void waitForElementVisible(By locator) {
-		wait = new WebDriverWait(driver,120);
+		wait = new WebDriverWait(driver,60);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	
 	}
@@ -247,7 +247,7 @@ public class ElementUtils extends BasePage{
 		 //int day = calendar.get(calendar.DATE);
 		 //int days = calendar.get(Calendar.DATE);
 		 
-		 int futureday = calendar.get(Calendar.DATE)+4;
+		 int futureday = calendar.get(Calendar.DATE)+1;
 		
 		 
 		 

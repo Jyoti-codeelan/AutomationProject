@@ -1,2 +1,7 @@
-com\qa\codeElan\TestRunner\TestNgRunner.class
-com\qa\codeElan\stepDefination\LoginStepDef.class
+com\qa\codeElan\basetest\BaseTest.class
+com\qa\codeElan\TestPages\BusinessFinancePageTest.class
+com\qa\codeElan\TestPages\Level3PageTest.class
+com\qa\codeElan\TestPages\IdeatorPageTest.class
+com\qa\codeElan\TestPages\Level4PageTest.class
+com\qa\codeElan\TestPages\Level1PageTest.class
+com\qa\codeElan\TestPages\Level2PageTest.class

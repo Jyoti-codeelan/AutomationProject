@@ -32,7 +32,7 @@ public ElementUtils elementUtils;
 	elementUtils =  new ElementUtils(this.driver);
 	}
 
-	@Step("Level3 Page Approve")
+	@Step("Approve Idea on Level3 Page")
 	public void getIdeaApproveOnLevel3Page(){
 	
 	elementUtils.doMoveToElement(profileIcon);
@@ -51,6 +51,7 @@ public ElementUtils elementUtils;
 		//elementUtils.doSelectSystemDate(values);
 	}
 	
+	@Step("Initiate Project on Level3 Page........")
 	public void getInitiateProject(){	
 	elementUtils.doClick(implementationStartDate);	
 	elementUtils.doSelectSystemDate(impDate);

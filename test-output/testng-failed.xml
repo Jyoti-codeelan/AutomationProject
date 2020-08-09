@@ -45,6 +45,7 @@
         <methods>
           <include name="ideatorLogin"/>
           <include name="setUp"/>
+          <include name="getCreateIdeaTest"/>
           <include name="getConvertMainIdeaTest"/>
           <include name="quit"/>
         </methods>

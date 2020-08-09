@@ -29,11 +29,11 @@ public class Level2_Page extends BasePage{
 
 	@Step("Level2 Page Approve")
 	public void getIdeaValidateOnLevel2Page(){
-		elementUtils.doMoveToElement(profileIcon);
-		elementUtils.getMoveElement(approvalsDrop);
+	elementUtils.doMoveToElement(profileIcon);
+	elementUtils.getMoveElement(approvalsDrop);
 		
-		elementUtils.doClick(approve);
-		elementUtils.doClick(oKBtm);
+	elementUtils.doClick(approve);
+	elementUtils.doClick(oKBtm);
 	}
 	
 }

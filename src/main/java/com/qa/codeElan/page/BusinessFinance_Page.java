@@ -7,6 +7,8 @@ import com.qa.codeElan.Base.BasePage;
 import com.qa.codeElan.Utils.ElementUtils;
 import com.qa.codeElan.constants.Constants;
 
+import io.qameta.allure.Step;
+
 
 public class BusinessFinance_Page extends BasePage{
 	
@@ -33,7 +35,7 @@ public ElementUtils elementUtils;
 		elementUtils.getMoveElement(approvals);
 		}
 	
-	
+	@Step("Validate Idea On Business Finance Page.........")
 	public void getIdeaValidateOnBFPage(){
 		elementUtils.waitForElementClickable(notification);
 		getSelectOnIdeaFromList();

@@ -53,8 +53,8 @@ public class IdeatorPageTest extends BaseTest{
 
 	@JiraPolicy(logTicketReady=true)
 	@Test(priority=3,enabled=true)
-//	@Description("Convert quick idea into Main idea on Ideator Page")
-//	@Severity(SeverityLevel.CRITICAL)
+	@Description("Convert quick idea into Main idea on Ideator Page")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getConvertMainIdeaTest(){
 	ideatorPage.getConvertToMainIdeaOnIdeatorPage();
 		

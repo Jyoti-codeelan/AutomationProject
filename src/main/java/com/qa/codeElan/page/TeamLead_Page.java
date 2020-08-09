@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import com.qa.codeElan.Base.BasePage;
 import com.qa.codeElan.Utils.ElementUtils;
 
+import io.qameta.allure.Step;
+
 public class TeamLead_Page extends BasePage{
 	
 public ElementUtils elementUtils;
@@ -22,10 +24,10 @@ public ElementUtils elementUtils;
 	elementUtils = new ElementUtils(this.driver);
 	}
 
-	
+	@Step("Approve Idea on TeamLead Page.......")
 	public void getApprovalOnTeamLeadPage(){
-		elementUtils.doClick(profileIcon);
-		elementUtils.getMoveElement(approvalsDrop);
+	elementUtils.doClick(profileIcon);
+	elementUtils.getMoveElement(approvalsDrop);
 		
 	}
 }
