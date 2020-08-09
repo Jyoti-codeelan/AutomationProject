@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.qa.codeElan.Base.BasePage;
 import com.qa.codeElan.Utils.ElementUtils;
-import com.qa.codeElan.Utils.JavaScriptUtils;
+import com.qa.codeElan.Utils.JavaScriptUtil;
 import com.qa.codeElan.constants.Constants;
 
 import io.qameta.allure.Step;
@@ -13,7 +13,7 @@ import io.qameta.allure.Step;
 public class Level1_Page extends BasePage{
 	
 	public ElementUtils elementUtils;
-	public JavaScriptUtils jsu;
+	public JavaScriptUtil jsu;
 
 	private By notification = By.xpath("//a[contains(@id,'BtnNotification')]");
 	private By profileIcon = By.xpath("//li[contains(@class,'drop_profile')]");
@@ -30,7 +30,7 @@ public class Level1_Page extends BasePage{
 	public Level1_Page(WebDriver driver){
 		this.driver = driver;
 		elementUtils =  new ElementUtils(this.driver);
-		jsu = new JavaScriptUtils(this.driver);
+		jsu = new JavaScriptUtil(this.driver);
 	}
 
 	
@@ -41,7 +41,7 @@ public class Level1_Page extends BasePage{
 	
 	public void getClickOnProfileIcone(){
 		//elementUtils.doClick(profileIcon);
-		//jsu.doclickElementByJS(elementUtils.getElement(profileIcon));
+		
 		elementUtils.doMoveToElement(profileIcon);
 		elementUtils.getMoveElement(approvals);
 		//elementUtils.doClick(approvals);

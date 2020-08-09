@@ -1,8 +1,11 @@
 package com.qa.codeElan.Base;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Map;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -18,17 +21,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
 
-	public static Logger log = Logger.getLogger(BasePage.class.getName());
-	public WebDriver driver;
+	public static Logger log = Logger.getLogger(BasePage.class.getName()) ;
+	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>() ;
+	public static final String CONFIG_DATA_SHEET = "ConfigData_Sheet" ;
 	
-	
-public static final String CONFIG_DATA_SHEET = "ConfigData_Sheet";
-	
-	
-	Map<String, String> configData ;
-	
-	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>();
-	
+	public WebDriver driver ;
+	public Properties prop ;
+	public Map<String, String> configData ;
+	public  static boolean highlightElement ;
+
 	
 	public static synchronized WebDriver getDriver() {
 		return tldriver.get();
@@ -39,6 +40,8 @@ public static final String CONFIG_DATA_SHEET = "ConfigData_Sheet";
 		obj = new ExcelUtils();
 		configData = obj.getData(CONFIG_DATA_SHEET);
 		log.info("driver intialize..........");
+		highlightElement = configData.get("highlight").equals("yes") ? true : false;
+		//highlightElement = prop.getProperty("highlight").equals("yes")? true : false ;
 		String browserName = configData.get("Browser");
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
@@ -86,6 +89,47 @@ public static final String CONFIG_DATA_SHEET = "ConfigData_Sheet";
 		}
 		
 		return path;
+	}
+	
+	
+	
+	public Properties init_prop() {
+		prop = new Properties();
+		String path = null;
+		String env = null;
+
+		try {
+			env = System.getProperty("env");
+			if (env == null) {
+				path = "";
+			} else {
+				switch (env) {
+				case "qa":
+					path = "./src/main/java/com/qa/codeElan/Properites/config.properties";
+					break;
+				case "stg":
+					path = "./";
+					break;
+				case "prod":
+					path = "./";
+					break;
+				default:
+					System.out.println("no env is passed");
+					break;
+				}
+			}
+
+			FileInputStream ip = new FileInputStream(path);
+			prop.load(ip);
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.out.println("config file is not foubd.....");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return prop;
 	}
 	
 }

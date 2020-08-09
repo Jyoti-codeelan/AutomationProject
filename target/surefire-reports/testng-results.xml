@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="4" ignored="1" total="8" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="503759" started-at="2020-08-08T17:51:46Z" finished-at="2020-08-08T18:00:10Z">
+  <suite name="Suite" duration-ms="680194" started-at="2020-08-09T05:22:43Z" finished-at="2020-08-09T05:34:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="503759" started-at="2020-08-08T17:51:46Z" finished-at="2020-08-08T18:00:10Z">
+    <test name="Test" duration-ms="680194" started-at="2020-08-09T05:22:43Z" finished-at="2020-08-09T05:34:04Z">
       <class name="com.qa.codeElan.TestPages.BusinessFinancePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@30b2b76f]" name="setUp" is-config="true" duration-ms="17131" started-at="2020-08-08T17:54:16Z" finished-at="2020-08-08T17:54:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@231baf51]" name="setUp" is-config="true" duration-ms="18493" started-at="2020-08-09T05:26:39Z" finished-at="2020-08-09T05:26:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="BusinessFinancePageLogin()[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@30b2b76f]" name="BusinessFinancePageLogin" is-config="true" duration-ms="3253" started-at="2020-08-08T17:54:34Z" finished-at="2020-08-08T17:54:37Z">
+        <test-method status="PASS" signature="BusinessFinancePageLogin()[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@231baf51]" name="BusinessFinancePageLogin" is-config="true" duration-ms="8292" started-at="2020-08-09T05:26:58Z" finished-at="2020-08-09T05:27:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BusinessFinancePageLogin -->
-        <test-method status="FAIL" signature="getApproveIdeaOnBFPageTest()[pri:4, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@30b2b76f]" name="getApproveIdeaOnBFPageTest" duration-ms="7824" started-at="2020-08-08T17:54:37Z" finished-at="2020-08-08T17:54:45Z">
+        <test-method status="FAIL" signature="getApproveIdeaOnBFPageTest()[pri:4, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@231baf51]" name="getApproveIdeaOnBFPageTest" duration-ms="15560" started-at="2020-08-09T05:27:06Z" finished-at="2020-08-09T05:27:21Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate element with text: Test Idea Demo
@@ -31,7 +31,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DELL', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.qa.codeElan.Utils.ElementUtils.selectValueFromDropDown(ElementUtils.java:158)
+at com.qa.codeElan.Utils.ElementUtils.selectValueFromDropDown(ElementUtils.java:163)
 at com.qa.codeElan.page.BusinessFinance_Page.getIdeaValidateOnBFPage(BusinessFinance_Page.java:45)
 at com.qa.codeElan.TestPages.BusinessFinancePageTest.getApproveIdeaOnBFPageTest(BusinessFinancePageTest.java:43)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -69,11 +69,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApproveIdeaOnBFPageTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@30b2b76f]" name="quit" is-config="true" duration-ms="11037" started-at="2020-08-08T17:54:50Z" finished-at="2020-08-08T17:55:01Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@231baf51]" name="quit" is-config="true" duration-ms="10797" started-at="2020-08-09T05:27:30Z" finished-at="2020-08-09T05:27:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getApproveIdeaOnBFPageTest status=FAILURE method=BusinessFinancePageTest.getApproveIdeaOnBFPageTest()[pri:4, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@30b2b76f] output={null}]]]>
+                <![CDATA[[TestResult name=getApproveIdeaOnBFPageTest status=FAILURE method=BusinessFinancePageTest.getApproveIdeaOnBFPageTest()[pri:4, instance:com.qa.codeElan.TestPages.BusinessFinancePageTest@231baf51] output={null}]]]>
               </value>
             </param>
           </params>
@@ -82,15 +82,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- quit -->
       </class> <!-- com.qa.codeElan.TestPages.BusinessFinancePageTest -->
       <class name="com.qa.codeElan.TestPages.Level2PageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@56da52a7]" name="setUp" is-config="true" duration-ms="12899" started-at="2020-08-08T17:55:01Z" finished-at="2020-08-08T17:55:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@11841b15]" name="setUp" is-config="true" duration-ms="48523" started-at="2020-08-09T05:27:41Z" finished-at="2020-08-09T05:28:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="level2PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@56da52a7]" name="level2PageLogin" is-config="true" duration-ms="4534" started-at="2020-08-08T17:55:14Z" finished-at="2020-08-08T17:55:19Z">
+        <test-method status="PASS" signature="level2PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@11841b15]" name="level2PageLogin" is-config="true" duration-ms="9113" started-at="2020-08-09T05:28:30Z" finished-at="2020-08-09T05:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- level2PageLogin -->
-        <test-method status="FAIL" signature="getApproveLevel2PageTest()[pri:5, instance:com.qa.codeElan.TestPages.Level2PageTest@56da52a7]" name="getApproveLevel2PageTest" duration-ms="72630" started-at="2020-08-08T17:55:19Z" finished-at="2020-08-08T17:56:31Z">
+        <test-method status="FAIL" signature="getApproveLevel2PageTest()[pri:5, instance:com.qa.codeElan.TestPages.Level2PageTest@11841b15]" name="getApproveLevel2PageTest" duration-ms="76233" started-at="2020-08-09T05:28:39Z" finished-at="2020-08-09T05:29:55Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)]]>
@@ -99,8 +99,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:137)
-at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:121)
+at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:142)
+at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:126)
 at com.qa.codeElan.page.Level2_Page.getIdeaValidateOnLevel2Page(Level2_Page.java:35)
 at com.qa.codeElan.TestPages.Level2PageTest.getApproveLevel2PageTest(Level2PageTest.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -138,8 +138,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f507e9055589dbdb62703122332a3a40
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19923567c75bcfd4a357f20898bc1764
 *** Element info: {Using=xpath, value=//button[contains(@name,'btnApproveContent')]}
 at sun.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -166,11 +166,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApproveLevel2PageTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@56da52a7]" name="quit" is-config="true" duration-ms="10804" started-at="2020-08-08T17:56:35Z" finished-at="2020-08-08T17:56:45Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level2PageTest@11841b15]" name="quit" is-config="true" duration-ms="10746" started-at="2020-08-09T05:29:58Z" finished-at="2020-08-09T05:30:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getApproveLevel2PageTest status=FAILURE method=Level2PageTest.getApproveLevel2PageTest()[pri:5, instance:com.qa.codeElan.TestPages.Level2PageTest@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=getApproveLevel2PageTest status=FAILURE method=Level2PageTest.getApproveLevel2PageTest()[pri:5, instance:com.qa.codeElan.TestPages.Level2PageTest@11841b15] output={null}]]]>
               </value>
             </param>
           </params>
@@ -179,46 +179,46 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
         </test-method> <!-- quit -->
       </class> <!-- com.qa.codeElan.TestPages.Level2PageTest -->
       <class name="com.qa.codeElan.TestPages.IdeatorPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="setUp" is-config="true" duration-ms="17711" started-at="2020-08-08T17:51:47Z" finished-at="2020-08-08T17:52:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="setUp" is-config="true" duration-ms="30750" started-at="2020-08-09T05:22:44Z" finished-at="2020-08-09T05:23:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="ideatorLogin" is-config="true" duration-ms="5742" started-at="2020-08-08T17:52:05Z" finished-at="2020-08-08T17:52:11Z">
+        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="ideatorLogin" is-config="true" duration-ms="11872" started-at="2020-08-09T05:23:15Z" finished-at="2020-08-09T05:23:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ideatorLogin -->
-        <test-method status="PASS" signature="getCreateIdeaTest()[pri:1, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="getCreateIdeaTest" duration-ms="3409" started-at="2020-08-08T17:52:11Z" finished-at="2020-08-08T17:52:14Z">
+        <test-method status="PASS" signature="getCreateIdeaTest()[pri:1, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="getCreateIdeaTest" duration-ms="12432" started-at="2020-08-09T05:23:27Z" finished-at="2020-08-09T05:23:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCreateIdeaTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="quit" is-config="true" duration-ms="10827" started-at="2020-08-08T17:52:14Z" finished-at="2020-08-08T17:52:25Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="quit" is-config="true" duration-ms="10890" started-at="2020-08-09T05:23:40Z" finished-at="2020-08-09T05:23:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getCreateIdeaTest status=SUCCESS method=IdeatorPageTest.getCreateIdeaTest()[pri:1, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445] output={null}]]]>
+                <![CDATA[[TestResult name=getCreateIdeaTest status=SUCCESS method=IdeatorPageTest.getCreateIdeaTest()[pri:1, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="setUp" is-config="true" duration-ms="11723" started-at="2020-08-08T17:53:00Z" finished-at="2020-08-08T17:53:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="setUp" is-config="true" duration-ms="12194" started-at="2020-08-09T05:24:35Z" finished-at="2020-08-09T05:24:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="ideatorLogin" is-config="true" duration-ms="3718" started-at="2020-08-08T17:53:12Z" finished-at="2020-08-08T17:53:15Z">
+        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="ideatorLogin" is-config="true" duration-ms="9041" started-at="2020-08-09T05:24:47Z" finished-at="2020-08-09T05:24:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ideatorLogin -->
-        <test-method status="PASS" signature="getConvertMainIdeaTest()[pri:3, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="getConvertMainIdeaTest" duration-ms="50240" started-at="2020-08-08T17:53:15Z" finished-at="2020-08-08T17:54:06Z">
+        <test-method status="PASS" signature="getConvertMainIdeaTest()[pri:3, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="getConvertMainIdeaTest" duration-ms="91575" started-at="2020-08-09T05:24:57Z" finished-at="2020-08-09T05:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getConvertMainIdeaTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445]" name="quit" is-config="true" duration-ms="10931" started-at="2020-08-08T17:54:06Z" finished-at="2020-08-08T17:54:16Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a]" name="quit" is-config="true" duration-ms="10992" started-at="2020-08-09T05:26:28Z" finished-at="2020-08-09T05:26:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getConvertMainIdeaTest status=SUCCESS method=IdeatorPageTest.getConvertMainIdeaTest()[pri:3, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6b63d445] output={null}]]]>
+                <![CDATA[[TestResult name=getConvertMainIdeaTest status=SUCCESS method=IdeatorPageTest.getConvertMainIdeaTest()[pri:3, instance:com.qa.codeElan.TestPages.IdeatorPageTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -227,15 +227,15 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
         </test-method> <!-- quit -->
       </class> <!-- com.qa.codeElan.TestPages.IdeatorPageTest -->
       <class name="com.qa.codeElan.TestPages.Level3PageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@23ee75c5]" name="setUp" is-config="true" duration-ms="10018" started-at="2020-08-08T17:56:45Z" finished-at="2020-08-08T17:56:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@73877e19]" name="setUp" is-config="true" duration-ms="15310" started-at="2020-08-09T05:30:09Z" finished-at="2020-08-09T05:30:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="level3PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@23ee75c5]" name="level3PageLogin" is-config="true" duration-ms="4374" started-at="2020-08-08T17:56:55Z" finished-at="2020-08-08T17:57:00Z">
+        <test-method status="PASS" signature="level3PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@73877e19]" name="level3PageLogin" is-config="true" duration-ms="8790" started-at="2020-08-09T05:30:24Z" finished-at="2020-08-09T05:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- level3PageLogin -->
-        <test-method status="FAIL" signature="getApproveLevel3PageTest()[pri:6, instance:com.qa.codeElan.TestPages.Level3PageTest@23ee75c5]" name="getApproveLevel3PageTest" duration-ms="73571" started-at="2020-08-08T17:57:00Z" finished-at="2020-08-08T17:58:13Z">
+        <test-method status="FAIL" signature="getApproveLevel3PageTest()[pri:6, instance:com.qa.codeElan.TestPages.Level3PageTest@73877e19]" name="getApproveLevel3PageTest" duration-ms="75942" started-at="2020-08-09T05:30:33Z" finished-at="2020-08-09T05:31:49Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)]]>
@@ -244,8 +244,8 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:137)
-at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:121)
+at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:142)
+at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:126)
 at com.qa.codeElan.page.Level3_Page.getIdeaApproveOnLevel3Page(Level3_Page.java:40)
 at com.qa.codeElan.TestPages.Level3PageTest.getApproveLevel3PageTest(Level3PageTest.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -283,8 +283,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7c5e881523b09e80526c724851735ac2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8cdcf7f22309dec491edb1bed854e77c
 *** Element info: {Using=xpath, value=//button[contains(@name,'btnApproveContent')]}
 at sun.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -311,11 +311,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApproveLevel3PageTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@23ee75c5]" name="quit" is-config="true" duration-ms="10766" started-at="2020-08-08T17:58:16Z" finished-at="2020-08-08T17:58:27Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level3PageTest@73877e19]" name="quit" is-config="true" duration-ms="10757" started-at="2020-08-09T05:31:54Z" finished-at="2020-08-09T05:32:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getApproveLevel3PageTest status=FAILURE method=Level3PageTest.getApproveLevel3PageTest()[pri:6, instance:com.qa.codeElan.TestPages.Level3PageTest@23ee75c5] output={null}]]]>
+                <![CDATA[[TestResult name=getApproveLevel3PageTest status=FAILURE method=Level3PageTest.getApproveLevel3PageTest()[pri:6, instance:com.qa.codeElan.TestPages.Level3PageTest@73877e19] output={null}]]]>
               </value>
             </param>
           </params>
@@ -324,23 +324,23 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
         </test-method> <!-- quit -->
       </class> <!-- com.qa.codeElan.TestPages.Level3PageTest -->
       <class name="com.qa.codeElan.TestPages.Level1PageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@7578e06a]" name="setUp" is-config="true" duration-ms="12603" started-at="2020-08-08T17:52:25Z" finished-at="2020-08-08T17:52:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@4c0884e8]" name="setUp" is-config="true" duration-ms="11727" started-at="2020-08-09T05:23:51Z" finished-at="2020-08-09T05:24:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="level1Login()[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@7578e06a]" name="level1Login" is-config="true" duration-ms="3919" started-at="2020-08-08T17:52:37Z" finished-at="2020-08-08T17:52:41Z">
+        <test-method status="PASS" signature="level1Login()[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@4c0884e8]" name="level1Login" is-config="true" duration-ms="9817" started-at="2020-08-09T05:24:02Z" finished-at="2020-08-09T05:24:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- level1Login -->
-        <test-method status="PASS" signature="getApproveIdeaOnLevel1Page()[pri:2, instance:com.qa.codeElan.TestPages.Level1PageTest@7578e06a]" name="getApproveIdeaOnLevel1Page" duration-ms="7651" started-at="2020-08-08T17:52:41Z" finished-at="2020-08-08T17:52:49Z">
+        <test-method status="PASS" signature="getApproveIdeaOnLevel1Page()[pri:2, instance:com.qa.codeElan.TestPages.Level1PageTest@4c0884e8]" name="getApproveIdeaOnLevel1Page" duration-ms="12246" started-at="2020-08-09T05:24:12Z" finished-at="2020-08-09T05:24:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApproveIdeaOnLevel1Page -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@7578e06a]" name="quit" is-config="true" duration-ms="10819" started-at="2020-08-08T17:52:49Z" finished-at="2020-08-08T17:53:00Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level1PageTest@4c0884e8]" name="quit" is-config="true" duration-ms="10786" started-at="2020-08-09T05:24:24Z" finished-at="2020-08-09T05:24:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getApproveIdeaOnLevel1Page status=SUCCESS method=Level1PageTest.getApproveIdeaOnLevel1Page()[pri:2, instance:com.qa.codeElan.TestPages.Level1PageTest@7578e06a] output={null}]]]>
+                <![CDATA[[TestResult name=getApproveIdeaOnLevel1Page status=SUCCESS method=Level1PageTest.getApproveIdeaOnLevel1Page()[pri:2, instance:com.qa.codeElan.TestPages.Level1PageTest@4c0884e8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -349,35 +349,35 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
         </test-method> <!-- quit -->
       </class> <!-- com.qa.codeElan.TestPages.Level1PageTest -->
       <class name="com.qa.codeElan.TestPages.Level4PageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@11a7ba62]" name="setUp" is-config="true" duration-ms="10832" started-at="2020-08-08T17:58:27Z" finished-at="2020-08-08T17:58:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@7b208b45]" name="setUp" is-config="true" duration-ms="18490" started-at="2020-08-09T05:32:04Z" finished-at="2020-08-09T05:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="level4PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@11a7ba62]" name="level4PageLogin" is-config="true" duration-ms="3919" started-at="2020-08-08T17:58:38Z" finished-at="2020-08-08T17:58:42Z">
+        <test-method status="PASS" signature="level4PageLogin()[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@7b208b45]" name="level4PageLogin" is-config="true" duration-ms="8119" started-at="2020-08-09T05:32:23Z" finished-at="2020-08-09T05:32:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- level4PageLogin -->
-        <test-method status="FAIL" signature="getApproveLevel4PageTest()[pri:7, instance:com.qa.codeElan.TestPages.Level4PageTest@11a7ba62]" name="getApproveLevel4PageTest" duration-ms="73892" started-at="2020-08-08T17:58:42Z" finished-at="2020-08-08T17:59:56Z">
+        <test-method status="FAIL" signature="getApproveLevel4PageTest()[pri:7, instance:com.qa.codeElan.TestPages.Level4PageTest@7b208b45]" name="getApproveLevel4PageTest" duration-ms="77787" started-at="2020-08-09T05:32:31Z" finished-at="2020-08-09T05:33:49Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 18d69c8c6d2f29cded684a01a908ce85]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 572a74ce47cfc6a2870bec327c32f4ac]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@name,'btnApproveContent')] (tried for 70 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL', ip: '192.168.0.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 18d69c8c6d2f29cded684a01a908ce85
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 572a74ce47cfc6a2870bec327c32f4ac
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:137)
-at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:121)
+at com.qa.codeElan.Utils.ElementUtils.waitForElementClickable(ElementUtils.java:142)
+at com.qa.codeElan.Utils.ElementUtils.doClick(ElementUtils.java:126)
 at com.qa.codeElan.page.Level4_Page.getIdeaApproveOnLevel4Page(Level4_Page.java:33)
 at com.qa.codeElan.page.Level4_Page.getInitiateProjectForBreakThrough(Level4_Page.java:46)
 at com.qa.codeElan.TestPages.Level4PageTest.getApproveLevel4PageTest(Level4PageTest.java:40)
@@ -416,11 +416,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApproveLevel4PageTest -->
-        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@11a7ba62]" name="quit" is-config="true" duration-ms="10796" started-at="2020-08-08T17:59:59Z" finished-at="2020-08-08T18:00:10Z">
+        <test-method status="PASS" signature="quit(org.testng.ITestResult)[pri:0, instance:com.qa.codeElan.TestPages.Level4PageTest@7b208b45]" name="quit" is-config="true" duration-ms="10799" started-at="2020-08-09T05:33:53Z" finished-at="2020-08-09T05:34:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getApproveLevel4PageTest status=FAILURE method=Level4PageTest.getApproveLevel4PageTest()[pri:7, instance:com.qa.codeElan.TestPages.Level4PageTest@11a7ba62] output={null}]]]>
+                <![CDATA[[TestResult name=getApproveLevel4PageTest status=FAILURE method=Level4PageTest.getApproveLevel4PageTest()[pri:7, instance:com.qa.codeElan.TestPages.Level4PageTest@7b208b45] output={null}]]]>
               </value>
             </param>
           </params>

@@ -9,30 +9,6 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.qa.codeElan.TestPages.BusinessFinancePageTest">
-        <methods>
-          <include name="getApproveIdeaOnBFPageTest"/>
-          <include name="setUp"/>
-          <include name="BusinessFinancePageLogin"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- com.qa.codeElan.TestPages.BusinessFinancePageTest -->
-      <class name="com.qa.codeElan.TestPages.Level2PageTest">
-        <methods>
-          <include name="level2PageLogin"/>
-          <include name="getApproveLevel2PageTest"/>
-          <include name="setUp"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- com.qa.codeElan.TestPages.Level2PageTest -->
-      <class name="com.qa.codeElan.TestPages.Level4PageTest">
-        <methods>
-          <include name="getApproveLevel4PageTest"/>
-          <include name="setUp"/>
-          <include name="level4PageLogin"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- com.qa.codeElan.TestPages.Level4PageTest -->
       <class name="com.qa.codeElan.TestPages.Level3PageTest">
         <methods>
           <include name="setUp"/>
@@ -41,6 +17,30 @@
           <include name="getApproveLevel3PageTest"/>
         </methods>
       </class> <!-- com.qa.codeElan.TestPages.Level3PageTest -->
+      <class name="com.qa.codeElan.TestPages.BusinessFinancePageTest">
+        <methods>
+          <include name="getApproveIdeaOnBFPageTest"/>
+          <include name="setUp"/>
+          <include name="BusinessFinancePageLogin"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qa.codeElan.TestPages.BusinessFinancePageTest -->
+      <class name="com.qa.codeElan.TestPages.Level4PageTest">
+        <methods>
+          <include name="getApproveLevel4PageTest"/>
+          <include name="setUp"/>
+          <include name="level4PageLogin"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qa.codeElan.TestPages.Level4PageTest -->
+      <class name="com.qa.codeElan.TestPages.Level2PageTest">
+        <methods>
+          <include name="level2PageLogin"/>
+          <include name="getApproveLevel2PageTest"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qa.codeElan.TestPages.Level2PageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -122,7 +122,7 @@ public class Ideator_Page extends BasePage{
 		
 	//	By[] cloumn = {CalTabel} ;
 		elementUtils.datePickerTest();
-		elementUtils.doClick(applyBtm);
+		//elementUtils.doClick(applyBtm);
 		
 	}
 	

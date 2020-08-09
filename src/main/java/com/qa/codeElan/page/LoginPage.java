@@ -36,6 +36,7 @@ public class LoginPage extends BasePage{
 
 		log.info("Enter Credentials..........");
 		System.out.println("credentials are : " + credentials.getEmailID()  + " " + credentials.getPassword());
+		
 		elementUtils.doSendKeys(Employee_Number, credentials.getEmailID());
 		elementUtils.doSendKeys(Password, credentials.getPassword());
 		log.info("Click on Loin Button.......");

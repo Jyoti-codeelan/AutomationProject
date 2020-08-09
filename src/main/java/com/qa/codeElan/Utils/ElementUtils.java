@@ -8,6 +8,7 @@ import java.util.Set;
 import java.util.TimeZone;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -25,13 +26,15 @@ public class ElementUtils extends BasePage{
 	WebDriverWait wait;
 	Properties prop;
 	Actions action;
+	JavaScriptUtil jsUtil ;
 	
 
 	/************** ElementUtils Constructor *****************/
 	public ElementUtils(WebDriver driver){
-		//prop = super.prop;
+		prop = super.prop;
 		this.driver = driver;
 		action = new Actions(this.driver);
+		jsUtil = new JavaScriptUtil(driver) ;
 	}
 	
 	/************* Get Element using getElement Method  ****************/
@@ -43,7 +46,9 @@ public class ElementUtils extends BasePage{
 		try {
 			element = driver.findElement(locator);
 			
-			
+			if(highlightElement){
+				jsUtil.flash(element);
+			}
 		} catch (Exception e) {
 			System.out.println("some exception occurred while creating the element " + locator+" "+e.getMessage());
 			
@@ -519,6 +524,10 @@ public class ElementUtils extends BasePage{
 	           
 	 }
 	
+	 public void highLighterMethod(WebDriver driver, WebElement element){
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+		 }
 	       
 	 
 	 

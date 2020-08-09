@@ -5,11 +5,11 @@ com\qa\codeElan\page\Ideator_Page.class
 com\qa\codeElan\page\LoginPage.class
 com\qa\codeElan\Utils\ExcelUtils.class
 com\qa\codeElan\page\BusinessFinance_Page.class
+com\qa\codeElan\Utils\JavaScriptUtil.class
 com\qa\codeElan\constants\Constants.class
 com\qa\codeElan\page\Level4_Page.class
 com\qa\codeElan\page\HomePage.class
 com\qa\codeElan\page\Level2_Page.class
-com\qa\codeElan\Utils\JavaScriptUtils.class
 com\qa\codeElan\listeners\TesultsListener.class
 com\qa\codeElan\page\Level1_Page.class
 com\qa\codeElan\listeners\ExtentReportListener.class
